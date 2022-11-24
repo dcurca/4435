@@ -1,0 +1,23 @@
+simplemath.go
+Write a program that accepts two numbers and a math operation (add, subtract, multiply and divide) through the command line.
+Examples of input: add 5 10, sub 10 20, div 2 3 and mult 2 3. The result should be
+displayed to the user. The program should be able to deal with integer and floating
+point numbers.
+
+sum.go: input file is named numbers.txt
+Sum numbers found in a given file: You are to write a program that takes
+the file name on the command line and sums all the numbers in the file. There should
+be only one number on a line. The output of the program is that sum.
+
+
+sort.go: input file is numbers.txt and output file is sortedNumbers.txt
+Sort numbers found in a given file: You are to write a program that takes
+the file name on the command line and sorts the file in ascending order. The result
+should be put into another file.
+
+accounts.go: input file is accounts.json and output file is accountsUpdated.json
+Reading and writing to a JSON file. You are to write a program that takes
+an input JSON file with bank account information.
+For each entry you should add 100 dollars to the balance for each record. The output
+file (also in JSON) should be the same as the input file but with the balance being 100
+dollars more than the balance read from the input file.
