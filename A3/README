@@ -1,0 +1,4 @@
+Develop an application that uses Lamport Logical Clocks to totally order
+operations on N replicas. Each node hosts a replica. Assume that the replicas represent
+bank accounts. Each node can initiate an operation on the bank account. You are to use
+Lamport Logical Clocks to ensure that each node uses the same order of operations.
