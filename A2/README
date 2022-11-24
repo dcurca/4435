@@ -1,0 +1,23 @@
+Calculator: You are to develop a server that provides the following services: addition,
+subtraction, multiplication, and division of any two numbers. When the client is started,
+it should read a file named input. Each line consists of an operation followed by the
+operands. These should be separated by a space. The operations are represented by add,
+sub, div and mult. Examples include add 5 1 and div 10 2. You may assume only integer
+inputs. The result of an operation returned from the server should be placed in a file
+named output. Each result should be on its own line. You should have a file called port
+that has one line which is the port number used by the server. This should be read by
+the server and the client.
+
+Bank Account Manager: You are to develop a server that provides the following
+services: deposit, withdraw, and add interest. When the client is started, it should read
+a file named accounts.json. This will have the same format as that in assignment 0. The
+client should then read a file named input. The first line is the port number used by the
+server. Each line afterwards consists of an operation followed by the amount to be
+added or withdrawn or the interest rate to be applied to the current account balance.
+The interest rate is between 1 to 10. The operations should be named as deposit,
+withdraw and interest. Each of these takes as input the account number. For the deposit
+and withdraw operations a second input parameter is the amount, For the interest
+operation the second input parameter is the interest rate. The bank server should then
+output accountsUpdated.json which should represent the result of the operations
+specified in the input file. You should have a file called port that has one line which is
+the port number used by the server. This should be read by the server and the client.
